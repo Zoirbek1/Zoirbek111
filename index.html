@@ -21,17 +21,21 @@
     <!-- 1 -->
     <section class="px-5">
       <!-- nav -->
-      <nav class="w-full top-0 z-50 mx-auto">
+      <nav class="fixed bg-white w-full top-0 z-50 mx-auto">
         <div
           class="container px-1 flex flex-wrap items-center justify-between mx-auto py-3"
         >
           <article class="">
-            <a href="index.html" class="text-2xl uppercase block">Zoirbek</a>
+            <a
+              href="index.html"
+              class="text-2xl hover:font-bold uppercase block"
+              >Zoirbek</a
+            >
           </article>
           <article class="na2 flex flex-wrap gap-8">
-            <a href="" class="hover:font-bold text-xl"> Home </a>
-            <a href="" class="hover:font-bold text-xl"> Products </a>
-            <a href="" class="hover:font-bold text-xl"> Contacts </a>
+            <a href="index.html" class="hover:font-bold text-xl"> Home </a>
+            <a href="#ok" class="hover:font-bold text-xl"> Products </a>
+            <a href="#oh" class="hover:font-bold text-xl"> Contacts </a>
           </article>
           <article class="na3 flex flex-wrap gap-7">
             <img src="Person.png" alt="" />
@@ -45,11 +49,11 @@
 
       <!-- 2 -->
       <section>
-        <div class="container mt-12 mx-auto">
+        <div class="container mt-16 mx-auto">
           <div
             class="bg-green-100 grid grid-cols-2 gap-2 flex items-center rounded-2xl w-full"
           >
-            <div class="p-16">
+            <div class="p-12">
               <h1 class="font-bold text-[60px]">Buy your dream plants</h1>
               <div class="flex flex-wrap gap-8 mt-10">
                 <div class="">
@@ -65,7 +69,7 @@
               </div>
               <div class="">
                 <input
-                  class="px-2 mt-10  py-2 rounded-lg"
+                  class="px-2 mt-10 py-2 rounded-lg"
                   placeholder="What are you looking for?"
                   type="text"
                 />
@@ -82,6 +86,7 @@
       <!-- 3 -->
       <section class="">
         <div
+          id="ok"
           class="container grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 mx-auto mt-16"
         >
           <div class="m-5">
@@ -213,7 +218,10 @@
         </div>
       </section>
       <!-- 7 -->
-      <div class="bg-gray-100 py-5 mt-10 animate__animated animate__backInUp">
+      <div
+        id="oh"
+        class="bg-gray-100 py-5 mt-10 animate__animated animate__backInUp"
+      >
         <div
           class="container mx-auto max-w-5xl flex flex-col sm:flex-row flex-wrap justify-between gap-2 px-1 py-10 mx-auto"
         >
